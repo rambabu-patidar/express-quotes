@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  min-height: 100vh;
+  background-color: #ebcac4;
+}
+
+ul {
+  list-style-type: none;
+}
+
+
+.container {
+  height: 80vh;
+  display: grid;
+  place-content: center;
+}
+
+.header {
+  background: grey;
+  position: sticky;
+  top: 0;
+}
+
+.header__nav {
+  padding: 1rem;
+  background-color: #73265b;
+}
+
+.header__nav__list {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.header__nav__list__item a,
+.header__nav__list__item a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.header__nav__list__item a.active {
+  color: gold;
+}
+
+.header__nav__list__item a:hover {
+  color: #ffd900b2;
+}

@@ -1,0 +1,19 @@
+<header class="header">
+  <nav class="header__nav">
+    <ul class="header__nav__list">
+      <li class="header__nav__list__item">
+        <a href="/" class="<%= path === '/' ? 'active' : '' %> ">Home</a>
+      </li>
+      <li class="header__nav__list__item">
+        <a href="/random-quote" class="<%= path === '/random-quote' ? 'active' : '' %> ">Random Quote</a>
+      </li>
+      <li class="header__nav__list__item">
+        <a href="/admin/custom-quote" class="<%= path === '/admin/custom-quote' ? 'active' : '' %> ">Custom Quote</a>
+      </li>
+      <li class="header__nav__list__item">
+        <a href="/admin/add-custom-quote" class="<%= path === '/admin/add-custom-quote' ? 'active' : '' %> ">Add custom
+          quote</a>
+      </li>
+    </ul>
+  </nav>
+</header>

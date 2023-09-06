@@ -1,0 +1,29 @@
+<%- include("./includes/head.ejs") %>
+
+  <!-- Add your styling and other links  -->
+
+  <link rel="stylesheet" href="/css/custom-quote.css">
+  </head>
+
+  <body>
+
+    <%- include("./includes/navigation.ejs") %>
+
+      <main class="custom-quote-container">
+        <% if (quotes.length> 0) { %>
+          <h1 class="about quote">Your quote</h1>
+          <% for (let quote of quotes ) { %>
+            <article class="box">
+              <h1 class="quote">
+                <%= quote.title %>
+              </h1>
+              <p class="author"><b><i> - <%= quote.author%></i></b></p>
+            </article>
+
+            <% } %>
+              <% } else { %>
+                <h1 class="quote">No Quote Added! Try adding one.</h1>
+                <% }%>
+      </main>
+
+      <%- include("./includes/end.ejs") %>

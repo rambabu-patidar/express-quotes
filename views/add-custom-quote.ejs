@@ -1,0 +1,29 @@
+<%- include("./includes/head.ejs") %>
+
+  <!-- Add your styling and other links  -->
+  <link rel="stylesheet" href="/css/add-custom-quote.css">
+  </head>
+
+  <body>
+
+    <%- include("./includes/navigation.ejs") %>
+
+      <main class="container">
+        <form action="/admin/custom-quote" method="POST" class="quote-form">
+          <div class="form-controls">
+            <div class="form-control">
+              <label for="quote">Enter quote</label>
+              <input type="text" name="title" id="quote">
+            </div>
+            <div class="form-control">
+              <label for="author">Your name</label>
+              <input type="text" name="author" id="author">
+            </div>
+          </div>
+          <div class="form-actions">
+            <button type="submit">Save</button>
+          </div>
+        </form>
+      </main>
+
+      <%- include("./includes/end.ejs") %>

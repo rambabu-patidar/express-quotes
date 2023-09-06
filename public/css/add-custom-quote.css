@@ -1,0 +1,39 @@
+.quote-form {
+  min-width: 500px;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: white;
+}
+
+.form-control {
+  margin-bottom: 0.5rem;
+}
+
+.form-control label,
+.form-control input {
+  display: inline-block;
+  width: 100%;
+}
+
+.form-control label {
+  margin-bottom: 0.3rem;
+}
+
+.form-control input {
+  padding: .3rem;
+}
+
+.form-actions {
+  display: flex;
+  justify-content: center;
+}
+
+.form-actions button {
+  display: inline-block;
+  width: 100%;
+  font: inherit;
+  padding: 0.5rem 2rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #c9c8c8;
+}

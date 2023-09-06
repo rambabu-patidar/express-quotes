@@ -1,0 +1,40 @@
+.custom-quote-container {
+  margin-top: 2rem;
+  gap: 1rem;
+  display: grid;
+  place-content: center;
+}
+
+.quote {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 3rem;
+}
+
+.author {
+  text-align: right;
+  font-size: xx-large;
+}
+
+.box {
+  text-align: center;
+  min-width: 500px;
+  max-width: 800px;
+  padding: 1rem;
+  border-radius: 10px;
+  background: white;
+
+}
+
+.about {
+  margin-bottom: 2rem;
+  text-align: center;
+  border-bottom: 1px solid grey;
+}
+
+.note {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  font-style: italic;
+  font-size: smaller;
+}
